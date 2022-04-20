@@ -12,7 +12,7 @@ import { LoginTypes } from "../../types/Screen.types";
 
 export default function Login({ navigation }: LoginTypes) {
   async function handleSignIn() {
-    console.log("Login");
+    navigation.navigate("Tab");
   }
   function handleCadastrar() {
     navigation.navigate("Cadastrar");
@@ -21,7 +21,7 @@ export default function Login({ navigation }: LoginTypes) {
   return (
     <View style={styles.container} >
         <KeyboardAvoidingView>
-          <Text style={styles.title}>Login</Text>
+          <Text style={styles.title}>LOGIN</Text>
           <View style={styles.formRow}>
             <MaterialIcons name="email" style={styles.icon} />
             <TextInput
