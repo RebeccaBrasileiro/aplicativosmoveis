@@ -1,9 +1,9 @@
 export default {
     black: '#000000',
     white: '#FFFFFF',
-    green: '#545758',
-    greenLight: '#CFD8DC',
-    purple: '#FFB8D7',
-    orange: '#FFB74D',
-    orangeLight: '#FFE9CA'
+    primary: '#545758',
+    primaryLight: '#CFD8DC',
+    secondary: '#FFB8D7',
+    thirty: '#FFE5F1',
+    thirtyLight: '#FFE9CA'
 }
