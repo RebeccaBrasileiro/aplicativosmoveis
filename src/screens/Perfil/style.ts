@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.thirty,
     borderRadius: 8,
-    width:'90%'
+    width:'70%'
 
   },
   descricaopet:{

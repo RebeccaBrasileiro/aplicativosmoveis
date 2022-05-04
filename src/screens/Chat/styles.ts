@@ -6,10 +6,23 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 10,
     alignItems: "center",
+    backgroundColor: '#E7FFC8'
+  },
+  imagem:{
+    backgroundColor: colors.thirty,
+    alignItems: "center",
+    justifyContent: "center",
+    flex:1,
+    marginBottom: 20,
+    marginTop:20,
+    borderWidth: 1,
+    borderColor: colors.thirty,
+    borderRadius: 8,
+    width:'90%',
   },
   rowSearch: {
     flexDirection: "row",
-    backgroundColor: colors.primary,
+    backgroundColor: "#CFD8DC",
     borderRadius: 10,
     margin: 10,
     alignItems: "center",
@@ -18,7 +31,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 24,
-    padding: 5
+    padding: 5,
   }
 });
 

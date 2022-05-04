@@ -1,3 +1,4 @@
+import {ImageSourcePropType} from "react-native"
 export interface CardSocialProps {
   children: JSX.Element
 }
@@ -7,5 +8,7 @@ export interface CardProps {
     nome: string,
     data: Date,
     titulo: string,
-    }[]
+    imagem: ImageSourcePropType,
+    comentario: string
+    }
   }
