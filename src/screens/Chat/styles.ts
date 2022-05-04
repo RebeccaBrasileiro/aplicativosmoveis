@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#E7FFC8'
   },
   imagem:{
-    backgroundColor: colors.thirty,
     alignItems: "center",
     justifyContent: "center",
     flex:1,
@@ -32,6 +31,9 @@ const styles = StyleSheet.create({
   icon: {
     fontSize: 24,
     padding: 5,
+  },
+  list:{
+    width:"100%"
   }
 });
 

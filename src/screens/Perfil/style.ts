@@ -7,8 +7,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    resizeMode: "cover",
     backgroundColor:'#E7FFC8',
+  },
+  imgperfil: {
+    marginTop:50
   },
   nomepet:{
     backgroundColor: colors.thirty,
