@@ -1,10 +1,13 @@
 import React from "react";
-import { View, Text, ImageBackground, Image, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView } from "react-native";
 import styles from "./style";
 import Button from "../../components/Button";
+import { useAuth } from "../../hook/auth";
 import { setDefaultResultOrder } from "dns";
 
+
 export default function Perfil() {
+  const { user } = useAuth();
   return (
       <View style={styles.container}>
         <Image source={require("../../assets/rebecca_1.png")} style={styles.imgperfil} />
